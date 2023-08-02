@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoProject" thread-count="2" parallel="tests">
+    <test name="ChromeTest" preserve-order="true">
+        <parameter name="browsername" value="chrome"/>
+        <parameter name="url" value="http://168.61.189.83/#/login"/>
+        <parameter name="localDriverpath" value="C:\Program Files\chromedriver.exe"/>
+
+        <classes>
+            <class name="Login_Testcase.LoginTest">
+                <methods>
+                    <!--<include name= "InValidLogin"/>-->
+                    <include name= "ValidLogin"/>
+                    <include name= "verifyLogout"/>
+                </methods>
+        </class>
+
+            <!--<class name="UserProfile_Testcase.UserProfileTest">-->
+                <!--<methods>-->
+                    <!--<include name= "ValidLogin"/>-->
+                    <!--<include name= "verifyUserProfile"/>-->
+                    <!--<include name= "verifyLogout"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+        </classes>
+    </test>
+
+    <!--<test name="FirefoxTest">-->
+        <!--<parameter name="browsername" value="firefox"/>-->
+        <!--<parameter name="url" value="http://168.61.189.83/#/login"/>-->
+        <!--<parameter name="localDriverpath" value="C:\Program Files\geckodriver.exe"/>-->
+
+        <!--<classes>-->
+                <!--<class name="Login_Testcase.LoginTest">-->
+                    <!--<methods>-->
+                        <!--<include name= "InValidLogin"/>-->
+                        <!--<include name= "ValidLogin"/>-->
+                        <!--<include name= "verifyLogout"/>-->
+                    <!--</methods>-->
+                <!--</class>-->
+
+                <!--<class name="UserProfile_Testcase.UserProfileTest">-->
+                    <!--<methods>-->
+                        <!--<include name= "ValidLogin"/>-->
+                        <!--<include name= "verifyUserProfile"/>-->
+                        <!--<include name= "verifyLogout"/>-->
+                    <!--</methods>-->
+                <!--</class>-->
+
+    <!--</classes>-->
+    <!--</test>-->
+
+</suite>

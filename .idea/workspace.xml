@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9c3b6e9-3f35-44d5-8208-6c3bf04c4ef4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/main/java/Loader_PageObject/LoaderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied details.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied issues_14 April 2023.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied issues_14 April 2023.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/src/test/java/UserProfile_Testcase/UserProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/src/test/java/UserProfile_Testcase/UserProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/CommonPage/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/CommonPage/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/Dashboard_PageObject/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/Dashboard_PageObject/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/Loader_PageObject/LoaderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/Loader_PageObject/LoaderPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/Login_PageObject/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/Login_PageObject/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/Logout_PageObject/LogoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/Logout_PageObject/LogoutPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/META-INF/Packaging.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/UserProfile_PageObject/ProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/classes/UserProfile_PageObject/ProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/Allied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/Allied.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/ChromeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/ChromeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/ChromeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/ChromeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/FirefoxTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/FirefoxTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/Allied/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/junitreports/TEST-Login_Testcase.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/junitreports/TEST-Login_Testcase.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/junitreports/TEST-UserProfile_Testcase.UserProfileTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/junitreports/TEST-UserProfile_Testcase.UserProfileTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/Allied.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/FirefoxTest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-reports1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-reports1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-reports2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-reports2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/surefire-reports/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/test-classes/Login_Testcase/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/test-classes/Login_Testcase/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/test-classes/Logout_Testcase/LogoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/test-classes/Logout_Testcase/LogoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/test-classes/UserProfile_Testcase/UserProfileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/target/test-classes/UserProfile_Testcase/UserProfileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/Allied issues_14 April 2023.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/Allied issues_14 April 2023.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/Screenshot/VerifyLogin.png" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/Screenshot/VerifyLogin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/main/java/Dashboard_PageObject/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/main/java/Dashboard_PageObject/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/main/java/Login_PageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/main/java/Login_PageObject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/test/java/Login_Testcase/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/test/java/Login_Testcase/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/test/java/UserProfile_Testcase/UserProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/test/java/UserProfile_Testcase/UserProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/classes/CommonPage/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/classes/CommonPage/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/classes/Dashboard_PageObject/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/classes/Dashboard_PageObject/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/classes/Login_PageObject/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/classes/Login_PageObject/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/classes/UserProfile_PageObject/ProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/classes/UserProfile_PageObject/ProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/Allied/ChromeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/Allied/ChromeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/Allied/ChromeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/Allied/ChromeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/junitreports/TEST-Login_Testcase.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/junitreports/TEST-Login_Testcase.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/junitreports/TEST-UserProfile_Testcase.UserProfileTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/junitreports/TEST-UserProfile_Testcase.UserProfileTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/old/Allied/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/test-classes/Login_Testcase/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/test-classes/Login_Testcase/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/test-classes/Logout_Testcase/LogoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/test-classes/Logout_Testcase/LogoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/test-classes/UserProfile_Testcase/UserProfileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/target/test-classes/UserProfile_Testcase/UserProfileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/testNG.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/../out/" />
+    <ignored path="$PROJECT_DIR$/../target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageElements.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testNG.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Login_Testcase/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="75" column="66" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SW_Umesh.Pandey" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../pom.xml" />
+        <option value="$PROJECT_DIR$/../testNG.xml" />
+        <option value="$PROJECT_DIR$/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/CommonPage/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Logout_PageObject/LogoutPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Logout_Testcase/LogoutTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UserProfile_PageObject/ProfilePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UserProfile_Testcase/UserProfileTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CommonPage/BaseTest.java" />
+        <option value="$PROJECT_DIR$/PageElements.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Login_PageObject/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dashboard_PageObject/DashboardPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Login_Testcase/LoginTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="D:\1stAug2023" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="packing" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="packing" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="DemoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="packing" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard_PageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Login_PageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Login_Testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1stAug2023" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Logout_Testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1690966438058" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.18261719" />
+    <property name="project.structure.side.proportion" value="0.4241338" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="D:/1stAug2023/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="packing" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/1stAug2023/testNG.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c3b6e9-3f35-44d5-8208-6c3bf04c4ef4" name="Default Changelist" comment="" />
+      <created>1690876997123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690876997123</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 18h 03m 52s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 18h 04m 19s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 19h 05m 42s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 19h 14m 01s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 19h 17m 40s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 19h 25m 05s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 19h 29m 46s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 19h 31m 27s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 19h 36m 03s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__1stAug2023_testNG_xml - 2023.08.01 at 19h 38m 15s.xml">
+      <configuration name="D:/1stAug2023/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.25266525" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
+    <entry file="file://$PROJECT_DIR$/../pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../testNG.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/5.3.1/webdrivermanager-5.3.1-sources.jar!/io/github/bonigarcia/wdm/managers/ChromeDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Loader_PageObject/LoaderPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.17/lib/src.zip!/java.base/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1115" column="18" selection-start-line="1115" selection-start-column="18" selection-end-line="1115" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.17/lib/src.zip!/java.base/java/io/FileNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserProfile_PageObject/ProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CommonPage/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Logout_Testcase/LogoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserProfile_Testcase/UserProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Logout_PageObject/LogoutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CommonPage/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="54" column="72" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dashboard_PageObject/DashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Login_PageObject/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="105" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageElements.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Login_Testcase/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="75" column="66" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4241338" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4241338" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4241338" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4241338" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>packing</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4241338" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.aventstack:extentreports:5.0.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4241338" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

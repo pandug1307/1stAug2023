@@ -18,7 +18,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -79,8 +78,8 @@ public class BaseTest {
             extentTest.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" Test Case PASSED", ExtentColor.GREEN));
         }
         extentReports.flush();
-        Thread.sleep(1000);
-        Desktop.getDesktop().browse(new File("Report.html").toURI());
+        //Thread.sleep(1000);
+        //Desktop.getDesktop().browse(new File("Report.html").toURI());
     }
 
     public static String getSreencapture(WebDriver driver, String screenShort) throws IOException {

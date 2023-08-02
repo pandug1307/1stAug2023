@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="D:/SW_Umesh.Pandey" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/BitBucket/bitbucket-demo" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/Cypress/28thJune2023" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/Cypress/Costa Coffee (1)/Costa Coffee/grid2.0" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/Cypress/CypressDemoProject" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/Cypress/GitHub_Allied" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/Cypress/allied-packaging/cypress" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/Git/dt-20june2017" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey/Git/git-demo" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions" vcs="Git" />
-    <mapping directory="D:/SW_Umesh.Pandey/UmeshPandey_OLD/BitBucket/bitbucket-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/BitBucket/bitbucket-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Cypress/28thJune2023" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Cypress/Costa Coffee (1)/Costa Coffee/grid2.0" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Cypress/CypressDemoProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Cypress/GitHub_Allied" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Cypress/allied-packaging/cypress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Git/dt-20june2017" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Git/git-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/BitBucket/bitbucket-demo" vcs="Git" />
   </component>
 </project>

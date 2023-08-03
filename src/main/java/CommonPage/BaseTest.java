@@ -92,7 +92,7 @@ public class BaseTest {
         String destination= System.getProperty("user.dir")+ "/Screenshot/" +screenShort+ "_" +date+ ".png";
         File file= new File(destination);
         FileUtils.copyFile(srcFile, file);
-        
+
         //Path for Jenkins
         String jenkinsImagePath= "http://localhost:8080/job/AlliedMavenJobPipeline/ws/Screenshot/" +screenShort+ "_" +date+ ".png";
         return destination;

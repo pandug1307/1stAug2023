@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9c3b6e9-3f35-44d5-8208-6c3bf04c4ef4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/main/java/Loader_PageObject/LoaderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CommonPage/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CommonPage/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Testcase/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Testcase/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied details.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied issues_14 April 2023.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied issues_14 April 2023.docx" afterDir="false" />
@@ -124,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Login_Testcase/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+            <state relative-caret-position="1071">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,7 +194,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -280,7 +276,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1691066061777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1691066315148" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -374,7 +370,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +380,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -558,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Login_Testcase/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        <state relative-caret-position="1071">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

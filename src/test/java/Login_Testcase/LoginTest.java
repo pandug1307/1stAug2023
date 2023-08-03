@@ -92,5 +92,7 @@ public class LoginTest extends BaseTest {
         //extentTest.info("new Tab is opened successfully");
 //        driver.switchTo().window(tabs.get(0));
 //        extentTest.info("back to original window");
+
+        // End of Line
     }
 }

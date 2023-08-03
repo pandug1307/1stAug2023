@@ -20,6 +20,8 @@ import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
@@ -66,7 +68,7 @@ public class BaseTest {
     public void getResult(ITestResult result) throws IOException , InterruptedException{
         if(result.getStatus() == ITestResult.FAILURE){
             extentTest.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
-//            extentTest.log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable() + " Test Case Failed", ExtentColor.RED));
+            extentTest.log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable() + " Test Case Failed", ExtentColor.RED));
             String screenshotPath = getSreencapture(driver, result.getName());
             extentTest.fail("Test Case Failed" + extentTest.addScreenCaptureFromPath(screenshotPath));
         }
@@ -76,6 +78,7 @@ public class BaseTest {
         else if(result.getStatus() == ITestResult.SUCCESS)
         {
             extentTest.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" Test Case PASSED", ExtentColor.GREEN));
+            extentTest.log(Status.PASS, MarkupHelper.createLabel(result.getThrowable() + "Test Case PASSED", ExtentColor.GREEN));
         }
         extentReports.flush();
         //Thread.sleep(1000);
@@ -83,11 +86,20 @@ public class BaseTest {
     }
 
     public static String getSreencapture(WebDriver driver, String screenShort) throws IOException {
+        String date= new SimpleDateFormat("MM-dd-yyyy-hhmmss").format(new Date());
         TakesScreenshot ts = ((TakesScreenshot) driver);
         File srcFile= ts.getScreenshotAs(OutputType.FILE);
-        String destination= System.getProperty("user.dir")+ "/Screenshot/" +screenShort+ ".png";
+        String destination= System.getProperty("user.dir")+ "/Screenshot/" +screenShort+ "_" +date+ ".png";
         File file= new File(destination);
         FileUtils.copyFile(srcFile, file);
+        
+        //Path for Jenkins
+        String jenkinsImagePath= "http://localhost:8080/job/AlliedMavenJobPipeline/ws/Screenshot/" +screenShort+ "_" +date+ ".png";
         return destination;
+    }
+
+    public static String getCurrentDateTime(){
+        String currentdate= new SimpleDateFormat("MM-dd-yyyy-hhmmss").format(new Date());
+        return currentdate;
     }
 }

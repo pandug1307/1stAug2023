@@ -50,7 +50,7 @@ public class LoginTest extends BaseTest {
         extentTest.log(Status.PASS, "Page title is matched");
 
         //extentTest.info("Verify the ValidLogin");
-        boolean result= loginPage.verifyValidLogin("umesh.pandey@softwebsolutions.com", "Hello@#123");
+        boolean result= loginPage.verifyValidLogin("umesh.pandey123@softwebsolutions.com", "Hello@#123");
         Thread.sleep(3000);
         if (result==true) {
             extentTest.log(Status.PASS, "Login succeed");

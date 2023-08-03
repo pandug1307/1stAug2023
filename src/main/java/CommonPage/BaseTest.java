@@ -35,7 +35,7 @@ public class BaseTest {
 
         extentReports= new ExtentReports();
         //sparkReporter= new ExtentSparkReporter(new File(System.getProperty("user.dir")+"/Reports/Report.html"));
-        sparkReporter= new ExtentSparkReporter(new File(("Report.html")));
+        sparkReporter= new ExtentSparkReporter(new File(System.getProperty("user.dir") + "Report.html"));
         extentReports.attachReporter(sparkReporter);
         extentReports.setSystemInfo("Environment","QA");
 

@@ -35,7 +35,7 @@ public class BaseTest {
 
         extentReports= new ExtentReports();
         //sparkReporter= new ExtentSparkReporter(new File(System.getProperty("user.dir")+"/Reports/Report.html"));
-        sparkReporter= new ExtentSparkReporter(new File(("http://localhost:8080/job/AlliedMavenJobPipeline/ws/Report.html")));
+        sparkReporter= new ExtentSparkReporter(new File(("http://localhost:8080/job/AlliedMavenJobPipeline/ExtentReport")));
         extentReports.attachReporter(sparkReporter);
         extentReports.setSystemInfo("Environment","QA");
 

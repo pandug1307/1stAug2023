@@ -6,11 +6,9 @@
         <parameter name="localDriverpath" value="C:\Program Files\chromedriver.exe"/>
 
         <classes>
-            <class name="Login_Testcase.LoginTest">
+            <class name="Login_Testcase.LoginWithMultipleSetsOfData">
                 <methods>
-                    <!--<include name= "InValidLogin"/>-->
-                    <include name= "ValidLogin"/>
-                    <include name= "verifyLogout"/>
+                    <include name= "verifyLoginCredentials"/>
                 </methods>
         </class>
 

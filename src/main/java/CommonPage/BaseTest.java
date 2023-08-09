@@ -13,10 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,13 +29,13 @@ public class BaseTest {
 
     @Parameters({"browsername", "localDriverpath", "url"})
 
-    @BeforeClass
+    @BeforeTest
     public void Setup(String browsername, String localDriverpath, String url){
 
         extentReports= new ExtentReports();
         //sparkReporter= new ExtentSparkReporter(new File(System.getProperty("user.dir")+"/Reports/Report.html"));
-        sparkReporter= new ExtentSparkReporter(new File(("http://localhost:8080/job/AlliedMavenJobPipeline/ExtentReport/")));
-//        sparkReporter= new ExtentSparkReporter(new File(("Report.html")));
+//        sparkReporter= new ExtentSparkReporter(new File(("http://localhost:8080/job/AlliedMavenJobPipeline/ExtentReport/")));
+        sparkReporter= new ExtentSparkReporter(new File(("Report.html")));
         extentReports.attachReporter(sparkReporter);
         extentReports.setSystemInfo("Environment","QA");
 
@@ -56,13 +53,19 @@ public class BaseTest {
 
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        //driver.manage().deleteAllCookies();
         driver.get(url);
+
     }
 
-    @AfterClass
+    @AfterTest
     public void Terminate(){
-        System.out.println("Browser closed successfully.");
-        driver.quit();
+        if (driver!=null) {
+            //System.out.println("Browser closed successfully.");
+            driver.quit();
+        }else {
+            System.out.println("Browser unable to close.");
+        }
     }
 
     @AfterMethod
@@ -99,8 +102,8 @@ public class BaseTest {
         return destination;
     }
 
-    public static String getCurrentDateTime(){
-        String currentdate= new SimpleDateFormat("MM-dd-yyyy-hhmmss").format(new Date());
-        return currentdate;
-    }
+//    public static String getCurrentDateTime(){
+//        String currentdate= new SimpleDateFormat("MM-dd-yyyy-hhmmss").format(new Date());
+//        return currentdate;
+//    }
 }

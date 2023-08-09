@@ -16,11 +16,6 @@ public class DashboardPage extends BasePage {
     FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\PageElements.properties");
     Properties prop = new Properties();
 
-
-    //Locators
-//    public By pageDashboard = By.xpath("//*[contains(text(),'Dashboard')]//self::h2");
-    //public By pageLoader= By.xpath("//mat-spinner[@role='progressbar']");
-
     //Methods
     public boolean verifyDashboardPage() throws IOException, InterruptedException {
         try {

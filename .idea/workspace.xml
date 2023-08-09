@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9c3b6e9-3f35-44d5-8208-6c3bf04c4ef4" name="Default Changelist" comment="Changes in code.">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExcelDataRead/ExcelDataSupplier.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/AppiumDemo/.idea/AppiumDemo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/AppiumDemo/AppiumDemo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Onnyt Dance - Quickbook integration/APIAutomation/APIAutomation.iml" afterDir="false" />
@@ -19,24 +16,21 @@
       <change afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey_OLD/Allied Packaging IOT Solutions/src/main/java/Loader_PageObject/LoaderPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/node-v18.15.0-win-x64/node-v18.15.0-win-x64/node_modules/npm/node_modules/clone/clone.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/node-v18.15.0-win-x64/node_modules/npm/node_modules/clone/clone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageElements.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PageElements.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/ValidLogin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/ValidLogin_08-03-2023-055727.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CommonPage/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CommonPage/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Login_PageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login_PageObject/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Logout_PageObject/LogoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logout_PageObject/LogoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Testcase/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Testcase/LoginWithMultipleSetsOfData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logout_Testcase/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logout_Testcase/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CommonPage/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CommonPage/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Login_PageObject/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login_PageObject/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logout_PageObject/LogoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Logout_PageObject/LogoutPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Login_Testcase/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logout_Testcase/LogoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logout_Testcase/LogoutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelDataRead/LoginTestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelDataRead/LoginTestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Testcase/LoginWithMultipleSetsOfData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Testcase/LoginWithMultipleSetsOfData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommonPage/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommonPage/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dashboard_PageObject/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login_PageObject/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Logout_PageObject/LogoutPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserProfile_PageObject/ProfilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelDataRead/ExcelDataSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Login_Testcase/LoginWithMultipleSetsOfData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logout_Testcase/LogoutTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UserProfile_Testcase/UserProfileTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied details.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied issues_14 April 2023.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../SW_Umesh.Pandey/UmeshPandey/Allied Packaging IOT Solutions/Allied issues_14 April 2023.docx" afterDir="false" />

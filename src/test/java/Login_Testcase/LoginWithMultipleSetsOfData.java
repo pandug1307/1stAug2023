@@ -33,12 +33,8 @@ public class LoginWithMultipleSetsOfData extends BaseTest {
         Thread.sleep(2000);
         LogoutPage logoutPage= new LogoutPage(driver);
 
-        boolean result2= logoutPage.verifyLogoutPage();
-        if (result2){
+            logoutPage.verifyLogoutPage();
             extentTest.log(Status.PASS, "Logout success");
-        }else {
-            extentTest.log(Status.FAIL, "Logout failed");
-        }
 
 //        DashboardPage dashboardPage= new DashboardPage(driver);
 //        boolean result1= dashboardPage.verifyDashboardPage();

@@ -52,5 +52,4 @@ public class LoginPage extends BasePage {
             throw e;
         }
     }
-
 }

@@ -9,14 +9,18 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.util.logging.Logger;
 
 public class LoginWithMultipleSetsOfData extends BaseTest {
     public LoginWithMultipleSetsOfData(){}
     public LoginWithMultipleSetsOfData(WebDriver passdriver){ driver=passdriver;}
 
+    static final Logger logger = Logger.getLogger("LoginWithMultipleSetsOfData.class");
 
     @Test(dataProvider = "loginData", dataProviderClass = ExcelDataSupplier.class)
     public void verifyLoginCredentials(String email, String passwd) throws IOException, InterruptedException {
+
+        logger.info("Verify the Login with Different Sets of Data");
 
         extentTest= extentReports.createTest("Verify the Login with Different Sets of Data");
         LoginPage loginPage= new LoginPage(driver);

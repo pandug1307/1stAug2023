@@ -20,8 +20,11 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
 public class BaseTest {
+
+    static final Logger logger = Logger.getLogger("BaseTest.class");
     public WebDriver driver;
     public ExtentReports extentReports;
     public ExtentTest extentTest;
@@ -34,13 +37,14 @@ public class BaseTest {
 
         extentReports= new ExtentReports();
         //sparkReporter= new ExtentSparkReporter(new File(System.getProperty("user.dir")+"/Reports/Report.html"));
-        sparkReporter= new ExtentSparkReporter(new File(("http://localhost:8080/job/AlliedMavenJobPipeline/ExtentReport/")));
-//        sparkReporter= new ExtentSparkReporter(new File(("Report.html")));
+//        sparkReporter= new ExtentSparkReporter(new File(("http://localhost:8080/job/AlliedMavenJobPipeline/ExtentReport/")));
+        sparkReporter= new ExtentSparkReporter(new File(("Report.html")));
         extentReports.attachReporter(sparkReporter);
         extentReports.setSystemInfo("Environment","QA");
 
 //        ChromeDriverManager.chromedriver().setup();
 //        driver= new ChromeDriver();
+        logger.info("Launch the chrome browser");
         if (browsername.equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver", localDriverpath);
             driver= new ChromeDriver();
@@ -54,8 +58,8 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         //driver.manage().deleteAllCookies();
+        logger.info("URL: http://168.61.189.83/#/login");
         driver.get(url);
-
     }
 
     @AfterTest

@@ -12,6 +12,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.logging.Logger;
 
 public class LogoutPage extends BasePage {
 
@@ -19,11 +20,14 @@ public class LogoutPage extends BasePage {
     FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\PageElements.properties");
     Properties prop= new Properties();
 
+    static final Logger logger = Logger.getLogger("LogoutPage.class");
+
     //Methods
     public boolean verifyLogoutPage() throws IOException {
         try{
             prop.load(fis);
 
+            logger.info("get Loggedin Username");
             WebElement wclUser= driver.findElement(By.cssSelector(prop.getProperty("username")));
             Assert.assertTrue(wclUser.isDisplayed(), "User do not found");
             System.out.println(wclUser.getText());
@@ -35,6 +39,8 @@ public class LogoutPage extends BasePage {
 
             WebElement btnsignout= driver.findElement(By.xpath(prop.getProperty("btnSignout")));
             btnsignout.click();
+
+            logger.info("Logout success");
 
             return true;
 

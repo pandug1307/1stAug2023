@@ -7,11 +7,14 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.logging.Logger;
 
 public class DashboardPage extends BasePage {
     public DashboardPage(WebDriver driver) throws FileNotFoundException {
         super(driver);
     }
+
+    static final Logger logger = Logger.getLogger("DashboardPage.class");
 
     FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\PageElements.properties");
     Properties prop = new Properties();
@@ -21,6 +24,7 @@ public class DashboardPage extends BasePage {
         try {
             prop.load(fis);
 
+            logger.info("verify the Dashboard page being displayed or not");
             JavascriptExecutor jse = (JavascriptExecutor)driver;
             WebElement element= driver.findElement(By.xpath(prop.getProperty("pageDashboard")));
             jse.executeScript("return arguments[0].text", element);
